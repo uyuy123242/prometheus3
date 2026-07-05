@@ -75,7 +75,7 @@ st.markdown("---")
 # ---------------------------------------------------------
 # GEMINI İSTEMCİSİ — GEMINI_API_KEY ortam değişkeninden okunur
 # ---------------------------------------------------------
-DEFAULT_MODEL = "gemini-2.5-pro"
+DEFAULT_MODEL = "gemini-2.5-flash""
 
 @st.cache_resource(show_spinner=False)
 def get_client():
