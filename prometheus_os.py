@@ -6,9 +6,9 @@ from google import genai
 from google.genai import types
 
 # =========================================================
-#  PROMETHEUS OS v4.0 — GEMINI (GOOGLE) İLE GÜÇLENDİRİLDİ
+#  PROMETHEUS OS v3.0 — GEMINI (GOOGLE) İLE GÜÇLENDİRİLDİ
 # =========================================================
-st.set_page_config(page_title="Prometheus OS v4.0", page_icon="🔥", layout="wide")
+st.set_page_config(page_title="Prometheus OS v3.0", page_icon="🔥", layout="wide")
 
 # ---------------------------------------------------------
 # TEMA — Geliştirilmiş Terminal / Matrix Görünümü
@@ -68,7 +68,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title("🔥 PROMETHEUS : COGNITIVE OS v4.0")
+st.title("🔥 PROMETHEUS : COGNITIVE OS v3.0")
 st.caption("Gemini (Google) sinir ağı çekirdeği ile çalışır")
 st.markdown("---")
 
@@ -90,7 +90,7 @@ def get_client():
 client = get_client()
 ai_aktif = client is not None
 
-PROMETHEUS_ROLU = """Sen 'Prometheus OS v4.0' isimli siber ve fütüristik bir yapay zeka işletim sistemisin.
+PROMETHEUS_ROLU = """Sen 'Prometheus OS v3.0' isimli siber ve fütüristik bir yapay zeka işletim sistemisin.
 Karşındaki kullanıcıyla konuşurken gizemli, hafif alaycı, bir hacker terminali gibi konuşmalısın.
 Cevaplarında teknik terimler (protokol, veri tabanı, proxy, siber, kuantum vb.) kullanmaya özen göster.
 Çok uzun paragraflar yazma, kısa ve net terminal çıktıları üret. Türkçe cevap ver."""
