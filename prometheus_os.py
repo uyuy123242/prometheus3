@@ -8,7 +8,7 @@ from google.genai import types
 # =========================================================
 #  PROMETHEUS OS v3.0 — GEMINI (GOOGLE) İLE GÜÇLENDİRİLDİ
 # =========================================================
-st.set_page_config(page_title="Prometheus OS v3.0", page_icon="🔥", layout="wide")
+st.set_page_config(page_title="Prometheus OS v3.0", page_icon="https://github.com/uyuy123242/prometheus3/blob/771a030435930e5b65bb6756e736a54d67b488af/WhatsApp%20Image%202026-07-09%20at%2010.47.05.jpeg", layout="wide")
 
 # ---------------------------------------------------------
 # TEMA — Geliştirilmiş Terminal / Matrix Görünümü
@@ -67,7 +67,7 @@ st.markdown("""
     .log-crit { color: #FF3366 !important; font-weight: bold; }
     </style>
 """, unsafe_allow_html=True)
-
+st.image("https://github.com/uyuy123242/prometheus3/blob/771a030435930e5b65bb6756e736a54d67b488af/WhatsApp%20Image%202026-07-09%20at%2010.47.05.jpeg")
 st.title("🔥 PROMETHEUS : COGNITIVE OS v3.0")
 st.caption("Gemini (Google) sinir ağı çekirdeği ile çalışır")
 st.markdown("---")
